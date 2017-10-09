@@ -1,7 +1,7 @@
 
 
 #container {
-  width: 500px;
+  width: 502px;/*problems here with float if it doesn't have a couple extra pxls*/
   height: 500px;
   border: 1px solid red;
   margin: auto;
@@ -23,9 +23,9 @@ li {
       
 
   float: left;
-  border: 1px solid black;
-  width: 50px;
-  height: 50px;
+  outline: 1px solid black;
+  /*width: 50px;*/
+  /*height: 50px;*/
   text-decoration: none;
 
 }
