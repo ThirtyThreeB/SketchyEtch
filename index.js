@@ -22,8 +22,8 @@ console.log("sideLength=", sideLength);
 let i=0;
 while (i<boxes) {
   for(let j=0; j<boxes; j++){
-   $('ul').append($("<li></li>").text(j).css({"height": sideLength + "px", "width": sideLength + "px"}));
-   }
+   $('ul').append($("<li></li>").css({"height": sideLength + "px", "width": sideLength + "px"}));
+   }//add .text(j) after .append() to have numbers appear in the boxes
      $('ul').append($("<p></p>"));
   i++;
 }
