@@ -5,8 +5,6 @@
   height: 500px;
   border: 1px solid red;
   margin: auto;
-
-  
 }
 
 ul {
@@ -20,12 +18,13 @@ ul {
 }
 
 li {
-      
-
   float: left;
   outline: 1px solid black;
   /*width: 50px;*/
   /*height: 50px;*/
   text-decoration: none;
+}
 
+li:hover {
+  background-color: red;
 }

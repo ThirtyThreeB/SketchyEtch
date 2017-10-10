@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $( "button" ).on( "click", addDivs );
+  $( "button" ).on( "click", addLis );
   
 });
 
@@ -10,7 +10,7 @@ $(document).ready(function(){
 //number of boxes per row === to number of rows
 
 //while loop up to number of rows, looping to make boxes per row
-function addDivs(){
+function addLis(){
   console.log("$boxes=", $("#boxesPerSide").val());
 
 let boxes = $("#boxesPerSide").val();
