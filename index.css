@@ -3,7 +3,7 @@
 #container {
   width: 502px;/*problems here with float if it doesn't have a couple extra pxls*/
   height: 500px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   margin: auto;
 }
 
@@ -13,13 +13,13 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
     /*background-color: #333;*/
 }
 
 li {
   float: left;
-  outline: 1px solid black;
+  /*outline: 1px solid black;*/
   text-decoration: none;
   background-color: rgba(0, 170, 255, 0.2);
 }
