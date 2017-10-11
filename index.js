@@ -1,6 +1,13 @@
 $(document).ready(function(){
-  $( "button" ).on( "click", addLis );
-  
+  $( "button" ).on( "click", addLis );//adds all the <li>s to the DOM
+
+  // $("li").mouseenter(function(){//this doesn't work!!!
+  //        $(this).fadeIn('slow', function() {
+
+  // });  
+  // $("li").on("mouseleave", function(){
+  //   $(this).fadeOut(3000);
+  // });
 });
 
 // need a var for squares per side
@@ -29,3 +36,7 @@ while (i<boxes) {
 }
 }
 
+//having trouble getting boxes to fadeout on mouseleave.
+//using :hover worked well but was just on/off
+//if I had a fade delay I could have a nice mouse tail effect
+//maybe will focus on some other stuff first and return
